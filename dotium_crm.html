@@ -86,44 +86,6 @@ body.theme-vico{background:#f5f7f5;color:#1a2e1a}
 .theme-vico .badge-gold{background:#fffde7;color:#f57f17}
 .theme-vico .acc-dot{background:#1AC475}
 
-/* DAYPASS */
-body.theme-dp{background:#eef0f7;color:#1a1a2e}
-.theme-dp .top-bar{background:#1a1a2e;border-bottom:2px solid #4a6cf7}
-.theme-dp .brand-text{color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;letter-spacing:.08em;text-transform:uppercase}
-.theme-dp .tab-btn{color:rgba(255,255,255,.5);border-bottom:2px solid transparent}
-.theme-dp .tab-btn.active{color:#4a6cf7;border-bottom:2px solid #4a6cf7}
-.theme-dp .tab-btn:hover:not(.active){color:rgba(255,255,255,.85)}
-.theme-dp .kpi{background:#fff;border:1px solid #d6daf5}
-.theme-dp .kpi-value{color:#1a1a2e;font-size:28px;font-weight:600}
-.theme-dp .kpi-label{color:#6b70a0;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
-.theme-dp .panel{background:#fff;border:1px solid #d6daf5}
-.theme-dp .panel-title{color:#1a1a2e;font-size:14px;font-weight:600}
-.theme-dp .btn-primary{background:#4a6cf7;color:#fff;border-color:#4a6cf7}
-.theme-dp .btn-primary:hover{background:#2a4cd7;border-color:#2a4cd7}
-.theme-dp .btn{border:1px solid #d6daf5;color:#1a1a2e;background:#fff}
-.theme-dp .btn:hover{background:#eef0f7}
-.theme-dp th{color:#6b70a0;border-bottom:1px solid #eaecf8}
-.theme-dp td{border-bottom:1px solid #f0f1fb;color:#1a1a2e}
-.theme-dp tr:hover td{background:#f5f6fc}
-.theme-dp .search-input,.theme-dp .filter-select{border:1px solid #d6daf5;background:#fff;color:#1a1a2e}
-.theme-dp .pipe-col{background:#e8eaf6}
-.theme-dp .pipe-card{background:#fff;border:1px solid #d6daf5}
-.theme-dp .pipe-card:hover{border-color:#4a6cf7}
-.theme-dp .pipe-col-header{color:#6b70a0}
-.theme-dp .pipe-count{background:#fff;border:1px solid #d6daf5}
-.theme-dp .status-ok{color:#4a6cf7}
-.theme-dp .modal{background:#fff;border:1px solid #d6daf5}
-.theme-dp .form-group input,.theme-dp .form-group select,.theme-dp .form-group textarea{border:1px solid #d6daf5;background:#fff;color:#1a1a2e}
-.theme-dp .modal-footer{border-top:1px solid #eaecf8}
-.theme-dp .badge-green{background:#e8f5e9;color:#2e7d32}
-.theme-dp .badge-blue{background:#e8ecfe;color:#3151e0}
-.theme-dp .badge-amber{background:#fff8e1;color:#e65100}
-.theme-dp .badge-red{background:#ffebee;color:#c62828}
-.theme-dp .badge-purple{background:#ede7f6;color:#512da8}
-.theme-dp .badge-gray{background:#eef0f7;color:#6b70a0}
-.theme-dp .badge-gold{background:#fffde7;color:#f57f17}
-.theme-dp .acc-dot{background:#4a6cf7}
-
 /* SEGUIMIENTO */
 body.theme-seg{background:#f5f5f7;color:#1a1a1a}
 .theme-seg .top-bar{background:#1a1a1a;border-bottom:2px solid #888}
@@ -199,7 +161,7 @@ tr:last-child td{border-bottom:none!important}
 .activity-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.06)}
 .activity-item:last-child{border-bottom:none}
 .acc-dot{width:8px;height:8px;border-radius:50%;margin-top:5px;flex-shrink:0}
-.acc-dot-bh{background:#c7a348}.acc-dot-vico{background:#1AC475}.acc-dot-dp{background:#4a6cf7}.acc-dot-gen{background:#888}
+.acc-dot-bh{background:#c7a348}.acc-dot-vico{background:#1AC475}.acc-dot-gen{background:#888}
 .toast{position:fixed;bottom:24px;right:24px;border-radius:10px;padding:11px 18px;font-size:13px;z-index:200;opacity:0;transition:opacity .2s;pointer-events:none;color:#fff}
 .toast.show{opacity:1}
 .seg-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
@@ -220,13 +182,11 @@ tr:last-child td{border-bottom:none!important}
   <path d="M260.34,291.78c-10.03,0-19.01-2.33-26.93-6.98-7.92-4.65-14.14-11.23-18.64-19.73-4.51-8.5-6.76-18.5-6.76-29.98s2.29-21.44,6.87-29.87c4.58-8.43,10.79-15.01,18.64-19.73,7.85-4.72,16.79-7.08,26.82-7.08,13.81,0,24.97,3.45,33.47,10.36,8.5,6.91,13.92,16.39,16.24,28.45h-24.2c-1.45-5.23-4.4-9.38-8.83-12.43-4.44-3.05-10.07-4.58-16.9-4.58-4.94,0-9.63,1.31-14.06,3.92-4.44,2.62-8,6.51-10.69,11.66-2.69,5.16-4.03,11.59-4.03,19.3s1.34,13.95,4.03,19.19c2.69,5.23,6.25,9.2,10.69,11.88,4.43,2.69,9.12,4.03,14.06,4.03,6.98,0,12.57-1.53,16.79-4.58,4.21-3.05,7.19-7.27,8.94-12.65h24.2c-2.91,11.92-8.58,21.37-17.01,28.34-8.43,6.98-19.33,10.47-32.7,10.47Z" class="st1"/>
   <path d="M371.46,291.78c-10.32,0-19.55-2.33-27.69-6.98-8.14-4.65-14.54-11.23-19.19-19.73-4.65-8.5-6.98-18.5-6.98-29.98s2.32-21.48,6.98-29.98c4.65-8.5,11.05-15.08,19.19-19.73,8.14-4.65,17.44-6.98,27.91-6.98s19.73,2.33,27.8,6.98c8.07,4.65,14.39,11.23,18.97,19.73,4.58,8.5,6.87,18.5,6.87,29.98s-2.33,21.48-6.98,29.98c-4.66,8.5-11.01,15.08-19.08,19.73-8.07,4.65-17.34,6.98-27.8,6.98ZM371.46,269.76c5.52,0,10.61-1.23,15.26-3.71,4.65-2.47,8.39-6.28,11.23-11.44,2.84-5.16,4.25-11.66,4.25-19.51s-1.42-14.53-4.25-19.62c-2.84-5.09-6.54-8.86-11.12-11.34-4.58-2.47-9.63-3.71-15.16-3.71s-10.61,1.24-15.26,3.71c-4.66,2.47-8.4,6.25-11.23,11.34-2.83,5.09-4.25,11.63-4.25,19.62,0,11.92,3.02,20.68,9.05,26.27,6.03,5.6,13.19,8.39,21.48,8.39Z" class="st1"/>
 </svg></div>
-    <div id="logo-dp" style="display:none"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1741.64 283.95" style="height:22px;fill:#fff"><path d="M1181.44 123.15c-23.57-6.12-31.84-10.71-31.84-19.89 0-6.43 6.13-11.33 14.69-11.33s15.31 3.06 15.61 12.85h49.91c-2.45-33.36-28.48-53.57-65.2-53.57-34.28 0-65.82 21.74-65.82 55.41 0 19.89 11.33 36.74 54.19 49.89 25.41 7.96 31.22 12.85 31.22 22.35 0 7.96-8.88 13.17-17.75 13.17-10.11 0-17.76-4.9-19.29-15.61h-43.26c.01-.52.04-1.02.04-1.54 0-24.79-13.17-41.02-53.57-51.73-23.57-6.12-31.84-10.71-31.84-19.89 0-6.43 6.13-11.33 14.69-11.33s15.31 3.06 15.61 12.85h49.91c-2.45-33.36-28.48-53.57-65.2-53.57-34.28 0-65.82 21.74-65.82 55.41 0 19.89 11.33 36.74 54.19 49.89 25.41 7.96 31.22 12.85 31.22 22.35 0 7.96-8.88 13.17-17.75 13.17-10.11 0-17.76-4.9-19.29-15.61h-50.51c3.68 34.59 30.92 56.32 69.18 56.32 31.27 0 57.3-14.68 66.04-39.17 9.58 24.45 33.57 39.17 65.02 39.17 38.58 0 69.18-22.35 69.18-57.85 0-24.79-13.17-41.02-53.57-51.73M1238.8 188.57h37.45v36.8h-37.45zM1352.44 195.71c-16.68 0-28.58-12.99-28.58-30.52s11.27-30.52 27.71-30.52c12.35 0 21.65 5.63 26.85 16.88h36.37c-6.71-30.52-32.48-50.44-64.08-50.44-34.64 0-63 27.91-63 63.85s28.13 64.3 63.65 64.3c30.74 0 56.49-19.49 63.65-49.58h-36.59c-5.4 10.4-13.84 16.02-25.97 16.02M1482.97 101.33c-35.94 0-64.73 26.62-64.73 63.85s28.13 63.87 64.73 63.87 64.73-26.63 64.73-64.3-28.58-63.42-64.73-63.42m0 94.16c-16.23 0-28.79-13.86-28.79-30.31s12.76-30.3 28.56-30.3c16.9 0 29.01 14.29 29.01 30.3s-11.91 30.31-28.79 30.31M132.97 64.56a88.64 88.64 0 0 0-43.94-11.61C39.86 52.95 0 92.8 0 141.98S39.86 231 89.03 231c15.99 0 30.98-4.24 43.94-11.61v7.53h50.81V.4h-50.81zM89.03 185.52c-24.01 0-43.54-19.53-43.54-43.54s19.53-43.55 43.54-43.55 43.54 19.53 43.54 43.55-19.53 43.54-43.54 43.54M382.36 226.92V57.03h-50.81v7.53a88.64 88.64 0 0 0-43.94-11.61c-49.17 0-89.03 39.85-89.03 89.03S238.44 231 287.61 231c15.99 0 30.98-4.24 43.94-11.61v7.53zm-94.76-41.4c-24.01 0-43.54-19.53-43.54-43.54s19.53-43.55 43.54-43.55 43.54 19.53 43.54 43.55-19.53 43.54-43.54 43.54M902.74 64.56a88.64 88.64 0 0 0-43.94-11.61c-49.17 0-89.03 39.85-89.03 89.03S809.63 231 858.8 231c15.99 0 30.98-4.24 43.94-11.61v7.53h50.81V57.03h-50.81zm-43.95 120.96c-24.01 0-43.54-19.53-43.54-43.54s19.53-43.55 43.54-43.55 43.54 19.53 43.54 43.55-19.53 43.54-43.54 43.54M673.05 52.81c-15.99 0-30.98 4.24-43.94 11.61v-7.53H578.3v.13h-50.44l-70.1 103.16h-1.52V57.02h-50.81v177.86l-33.68 48.67h59.69l146.87-213.1v212.96h50.81v-64.16a88.64 88.64 0 0 0 43.94 11.61c49.17 0 89.03-39.85 89.03-89.02s-39.86-89.03-89.03-89.03m-.01 132.57c-24.01 0-43.54-19.53-43.54-43.54s19.53-43.55 43.54-43.55 43.54 19.53 43.54 43.55-19.53 43.54-43.54 43.54"/></svg></div>
     <div id="logo-seg" style="display:none;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#fff;letter-spacing:.1em;text-transform:uppercase">Dotium Group</div>
   </div>
   <div class="tab-nav">
     <button class="tab-btn active" onclick="switchTab('bihouse')">BiHouse</button>
     <button class="tab-btn" onclick="switchTab('vico')">VICO</button>
-    <button class="tab-btn" onclick="switchTab('daypass')">DayPass</button>
     <button class="tab-btn" onclick="switchTab('seguimiento')">Seguimiento</button>
   </div>
   <div class="conn-area">
@@ -245,7 +205,7 @@ tr:last-child td{border-bottom:none!important}
     <div id="bh-section-cartera">
       <div class="kpi-row" id="bh-kpis"></div>
       <div class="kpi-row" id="bh-kpis-envios"></div>
-      <div class="panel">
+      <div class="panel" id="bh-props-panel">
         <div class="panel-header"><span class="panel-title">Propiedades</span><button class="btn btn-primary" onclick="openNewProp()">+ Propiedad</button></div>
         <div class="filters">
           <input class="search-input" id="bh-prop-search" placeholder="Buscar propiedad..." oninput="renderBHProps()">
@@ -302,25 +262,6 @@ tr:last-child td{border-bottom:none!important}
     </div>
   </div>
 
-  <!-- DAYPASS -->
-  <div id="tab-daypass" class="section">
-    <div class="kpi-row" id="dp-kpis"></div>
-    <div class="panel">
-      <div class="panel-header"><span class="panel-title">Pipeline venues</span><button class="btn btn-primary" onclick="openNewDP()">+ Venue</button></div>
-      <div id="dp-pipeline"></div>
-    </div>
-    <div class="panel">
-      <div class="panel-header"><span class="panel-title">Todos los venues</span>
-        <div class="filters" style="margin:0">
-          <input class="search-input" id="dp-search" placeholder="Buscar venue..." oninput="renderDPTable()" style="min-width:120px">
-          <select class="filter-select" id="dp-filter" onchange="renderDPTable()">
-            <option value="">Todos</option><option>Contactado</option><option>Demo</option><option>Onboarding</option><option>Activo</option><option>Descartado</option>
-          </select>
-        </div>
-      </div>
-      <table><thead><tr><th>Venue</th><th>Ciudad</th><th>Tipo</th><th>Contacto</th><th>GMV €</th><th>Estado</th><th></th></tr></thead><tbody id="dp-body"></tbody></table>
-    </div>
-  </div>
 
   <!-- SEGUIMIENTO -->
   <div id="tab-seguimiento" class="section">
@@ -420,20 +361,10 @@ tr:last-child td{border-bottom:none!important}
   <div class="modal-footer"><button class="btn" onclick="closeModal('vico-deal-modal')">Cancelar</button><button class="btn btn-primary" id="vd-save" onclick="saveVicoDeal()">Guardar</button></div>
 </div></div>
 
-<div class="modal-overlay" id="dp-venue-modal"><div class="modal">
-  <h3 id="dp-modal-title">Nuevo venue</h3><input type="hidden" id="dv-id">
-  <div class="form-row"><div class="form-group"><label>Nombre</label><input id="dv-nombre"></div><div class="form-group"><label>Ciudad</label><input id="dv-ciudad"></div></div>
-  <div class="form-row"><div class="form-group"><label>Tipo</label><select id="dv-tipo"><option value="">—</option><option>Hotel</option><option>Spa</option><option>Club deportivo</option><option>Restaurante</option><option>Coworking</option><option>Otro</option></select></div><div class="form-group"><label>Contacto</label><input id="dv-contacto"></div></div>
-  <div class="form-row"><div class="form-group"><label>Teléfono</label><input id="dv-tel"></div><div class="form-group"><label>Email</label><input id="dv-email" type="email"></div></div>
-  <div class="form-row"><div class="form-group"><label>GMV generado (€)</label><input id="dv-gmv" type="number"></div><div class="form-group"><label>Estado</label><select id="dv-estado"><option>Contactado</option><option>Demo</option><option>Onboarding</option><option>Activo</option><option>Descartado</option></select></div></div>
-  <div class="form-group"><label>Notas</label><textarea id="dv-notas" rows="2"></textarea></div>
-  <div class="modal-footer"><button class="btn" onclick="closeModal('dp-venue-modal')">Cancelar</button><button class="btn btn-primary" id="dv-save" onclick="saveDPVenue()">Guardar</button></div>
-</div></div>
-
 <div class="modal-overlay" id="task-modal"><div class="modal">
   <h3>Nueva tarea</h3><input type="hidden" id="tk-id">
   <div class="form-group"><label>Tarea</label><input id="tk-texto" placeholder="Descripción"></div>
-  <div class="form-row"><div class="form-group"><label>Proyecto</label><select id="tk-proyecto"><option>BiHouse</option><option>VICO</option><option>DayPass</option><option>General</option></select></div><div class="form-group"><label>Fecha límite</label><input id="tk-fecha" type="date"></div></div>
+  <div class="form-row"><div class="form-group"><label>Proyecto</label><select id="tk-proyecto"><option>BiHouse</option><option>VICO</option><option>General</option></select></div><div class="form-group"><label>Fecha límite</label><input id="tk-fecha" type="date"></div></div>
   <div class="modal-footer"><button class="btn" onclick="closeModal('task-modal')">Cancelar</button><button class="btn btn-primary" id="tk-save" onclick="saveTask()">Guardar</button></div>
 </div></div>
 
@@ -456,7 +387,7 @@ tr:last-child td{border-bottom:none!important}
   <p style="font-size:12px;opacity:.6;margin-bottom:1rem">Opcional — puedes editarla después desde Seguimiento</p>
   <div class="form-group"><label>Tarea</label><input id="qt-texto" style="width:100%;padding:8px 10px;border:1px solid #dde0ec;border-radius:8px;font-size:13px;font-family:inherit"></div>
   <div class="form-row">
-    <div class="form-group"><label>Proyecto</label><select id="qt-proyecto" style="width:100%;padding:8px 10px;border:1px solid #dde0ec;border-radius:8px;font-size:13px;font-family:inherit"><option>BiHouse</option><option>VICO</option><option>DayPass</option><option>General</option></select></div>
+    <div class="form-group"><label>Proyecto</label><select id="qt-proyecto" style="width:100%;padding:8px 10px;border:1px solid #dde0ec;border-radius:8px;font-size:13px;font-family:inherit"><option>BiHouse</option><option>VICO</option><option>General</option></select></div>
     <div class="form-group"><label>Fecha límite</label><input id="qt-fecha" type="date" style="width:100%;padding:8px 10px;border:1px solid #dde0ec;border-radius:8px;font-size:13px;font-family:inherit"></div>
   </div>
   <div class="modal-footer">
@@ -539,11 +470,11 @@ tr:last-child td{border-bottom:none!important}
 const SB_URL='https://hagoehcpijktwquoqhvu.supabase.co';
 const SB_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhhZ29laGNwaWprdHdxdW9xaHZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEyNjU0MTcsImV4cCI6MjA5Njg0MTQxN30.nYnNAWCzB62_ukQ3xZjms0QZk3QMEKHypD2J5gWpOnU';
 const HDR={'Content-Type':'application/json','apikey':SB_KEY,'Authorization':'Bearer '+SB_KEY,'Prefer':'return=representation'};
-const TABLES={props:'bh_propiedades',invs:'bh_inversores',cols:'bh_colaboradores',vico:'vico_deals',dp:'dp_venues',tasks:'crm_tasks',activity:'crm_activity',envios:'bh_envios',peticiones:'bh_peticiones'};
-let cache={props:[],invs:[],cols:[],vico:[],dp:[],tasks:[],activity:[],envios:[],peticiones:[]};
+const TABLES={props:'bh_propiedades',invs:'bh_inversores',cols:'bh_colaboradores',vico:'vico_deals',tasks:'crm_tasks',activity:'crm_activity',envios:'bh_envios',peticiones:'bh_peticiones'};
+let cache={props:[],invs:[],cols:[],vico:[],tasks:[],activity:[],envios:[],peticiones:[]};
 
-const THEMES={bihouse:'theme-bh',vico:'theme-vico',daypass:'theme-dp',seguimiento:'theme-seg'};
-const LOGOS={bihouse:'logo-bh',vico:'logo-vico',daypass:'logo-dp',seguimiento:'logo-seg'};
+const THEMES={bihouse:'theme-bh',vico:'theme-vico',seguimiento:'theme-seg'};
+const LOGOS={bihouse:'logo-bh',vico:'logo-vico',seguimiento:'logo-seg'};
 
 function showToast(msg,err=false){const t=document.getElementById('toast');t.textContent=msg;t.style.background=err?'#c62828':'#1a1a1a';t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
 function setConn(ok,msg){const dot=document.getElementById('conn-dot');const lbl=document.getElementById('conn-label');dot.className='status-dot '+(ok?'ok':ok===null?'loading':'err');lbl.textContent=msg;}
@@ -565,20 +496,20 @@ async function logActivity(texto,project){try{await sbInsert(TABLES.activity,{te
 async function initDB(){
   setConn(null,'Conectando...');
   try{
-    const[props,invs,cols,vico,dp,tasks,activity,envios,peticiones]=await Promise.all([sbFetch(TABLES.props),sbFetch(TABLES.invs),sbFetch(TABLES.cols),sbFetch(TABLES.vico),sbFetch(TABLES.dp),sbFetch(TABLES.tasks,{order:'created_at.asc'}),sbFetch(TABLES.activity,{limit:50}),sbFetch(TABLES.envios).catch(()=>[]),sbFetch(TABLES.peticiones).catch(()=>[])]);
-    cache={props,invs,cols,vico,dp,tasks,activity,envios,peticiones};
+    const[props,invs,cols,vico,tasks,activity,envios,peticiones]=await Promise.all([sbFetch(TABLES.props),sbFetch(TABLES.invs),sbFetch(TABLES.cols),sbFetch(TABLES.vico),sbFetch(TABLES.tasks,{order:'created_at.asc'}),sbFetch(TABLES.activity,{limit:50}),sbFetch(TABLES.envios).catch(()=>[]),sbFetch(TABLES.peticiones).catch(()=>[])]);
+    cache={props,invs,cols,vico,tasks,activity,envios,peticiones};
     setConn(true,'Conectado');renderBH();
   }catch(e){setConn(false,'Error');showToast('Error de conexión',true);console.error(e);}
 }
 
 function switchTab(t){
-  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',['bihouse','vico','daypass','seguimiento'][i]===t));
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',['bihouse','vico','seguimiento'][i]===t));
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.getElementById('tab-'+t).classList.add('active');
   document.body.className=THEMES[t];
   Object.values(LOGOS).forEach(id=>document.getElementById(id).style.display='none');
   document.getElementById(LOGOS[t]).style.display='block';
-  if(t==='bihouse')renderBH();else if(t==='vico')renderVico();else if(t==='daypass')renderDP();else renderSeg();
+  if(t==='bihouse')renderBH();else if(t==='vico')renderVico();else renderSeg();
 }
 
 function openModal(id){document.getElementById(id).classList.add('open');}
@@ -598,11 +529,13 @@ function renderBH(){renderBHKpis();renderBHProps();renderBHInvs();renderBHCols()
 function renderBHKpis(){
   const p=cache.props,i=cache.invs,e=cache.envios;
   const val=p.reduce((a,x)=>a+(Number(x.precio)||0),0);
+  const valVendido=p.filter(x=>x.estado==='Vendido').reduce((a,x)=>a+(Number(x.precio)||0),0);
   document.getElementById('bh-kpis').innerHTML=`
     <div class="kpi"><div class="kpi-label">En comercialización</div><div class="kpi-value">${p.filter(x=>x.estado==='En comercialización').length}</div></div>
-    <div class="kpi"><div class="kpi-label">Vendidas</div><div class="kpi-value">${p.filter(x=>x.estado==='Vendido').length}</div></div>
+    <div class="kpi" onclick="filterBHVendidas()" title="Ver propiedades vendidas" style="cursor:pointer"><div class="kpi-label">Vendidas</div><div class="kpi-value">${p.filter(x=>x.estado==='Vendido').length}</div></div>
     <div class="kpi"><div class="kpi-label">Total propiedades</div><div class="kpi-value">${p.length}</div></div>
     <div class="kpi"><div class="kpi-label">Valor en cartera</div><div class="kpi-value" style="font-size:18px">${val?val.toLocaleString('es-ES')+'€':'—'}</div></div>
+    <div class="kpi" onclick="filterBHVendidas()" title="Ver propiedades vendidas" style="cursor:pointer"><div class="kpi-label">Valor vendido</div><div class="kpi-value" style="font-size:18px;color:#2e7d32">${valVendido?valVendido.toLocaleString('es-ES')+'€':'—'}</div></div>
     <div class="kpi"><div class="kpi-label">Inversores</div><div class="kpi-value">${i.length}</div></div>`;
   const count=st=>e.filter(x=>x.estado===st).length;
   document.getElementById('bh-kpis-envios').innerHTML=`
@@ -611,6 +544,13 @@ function renderBHKpis(){
     <div class="kpi" style="border-left:3px solid #1565c0"><div class="kpi-label">Visitadas</div><div class="kpi-value" style="color:#1565c0">${count('Visitado')}</div></div>
     <div class="kpi" style="border-left:3px solid #c62828"><div class="kpi-label">Rechazadas</div><div class="kpi-value" style="color:#c62828">${count('Rechazado')}</div></div>
     <div class="kpi" style="border-left:3px solid #2e7d32"><div class="kpi-label">Compradas</div><div class="kpi-value" style="color:#2e7d32">${count('Comprada')}</div></div>`;
+}
+function filterBHVendidas(){
+  const f=document.getElementById('bh-prop-filter');
+  if(f)f.value='Vendido';
+  renderBHProps();
+  const panel=document.getElementById('bh-props-panel');
+  if(panel)panel.scrollIntoView({behavior:'smooth',block:'start'});
 }
 function renderBHProps(){
   const s=(document.getElementById('bh-prop-search')||{value:''}).value.toLowerCase();
@@ -794,35 +734,18 @@ function openNewVico(){
 function editVicoDeal(id){const d=cache.vico.find(x=>x.id===id);if(!d)return;document.getElementById('vd-id').value=d.id;['empresa','sector','contacto','tel','email','servicio','locales','ahorro','estado','notas'].forEach(f=>{const el=document.getElementById('vd-'+f);if(el)el.value=d[f]||'';});document.getElementById('vico-modal-title').textContent='Editar empresa';openModal('vico-deal-modal');}
 async function deleteVicoDeal(id){if(!confirm('¿Eliminar?'))return;try{await sbDelete(TABLES.vico,id);await reload('vico');renderVico();showToast('Eliminado');}catch{showToast('Error',true);}}
 
-function renderDP(){renderDPPipeline();renderDPTable();renderDPKpis();}
-function renderDPPipeline(){const pipe=document.getElementById('dp-pipeline');if(!pipe)return;const stages=['Contactado','Demo','Onboarding','Activo'];pipe.innerHTML=`<div class="pipe-cols">${stages.map(st=>{const items=cache.dp.filter(v=>v.estado===st);return`<div class="pipe-col"><div class="pipe-col-header">${st}<span class="pipe-count">${items.length}</span></div>${items.map(v=>`<div class="pipe-card" onclick="editDPVenue('${v.id}')"><div class="pipe-card-name">${v.nombre||'—'}</div><div class="pipe-card-sub">${v.ciudad||''}${v.tipo?' · '+v.tipo:''}</div></div>`).join('')||'<div style="font-size:11px;opacity:.4;padding:4px">Vacío</div>'}</div>`;}).join('')}</div>`;}
-function renderDPTable(){const s=(document.getElementById('dp-search')||{value:''}).value.toLowerCase();const f=(document.getElementById('dp-filter')||{value:''}).value;const data=cache.dp.filter(v=>(!s||(v.nombre||'').toLowerCase().includes(s)||(v.ciudad||'').toLowerCase().includes(s))&&(!f||v.estado===f));const tb=document.getElementById('dp-body');if(!tb)return;tb.innerHTML=data.length?data.map(v=>`<tr><td><strong style="font-weight:600">${v.nombre||'—'}</strong></td><td>${v.ciudad||'—'}</td><td>${v.tipo||'—'}</td><td>${v.contacto||'—'}</td><td>${fmt(v.gmv)}</td><td>${badge(v.estado)}</td><td style="white-space:nowrap"><button class="btn btn-sm" onclick="editDPVenue('${v.id}')">Editar</button> <button class="btn btn-danger btn-sm" onclick="deleteDPVenue('${v.id}')">Eliminar</button></td></tr>`).join(''):`<tr><td colspan="7"><div class="empty-state">Sin venues.</div></td></tr>`;}
-function renderDPKpis(){const d=cache.dp;const gmv=d.filter(v=>v.estado==='Activo').reduce((a,v)=>a+(Number(v.gmv)||0),0);document.getElementById('dp-kpis').innerHTML=`<div class="kpi"><div class="kpi-label">Venues activos</div><div class="kpi-value">${d.filter(v=>v.estado==='Activo').length}</div></div><div class="kpi"><div class="kpi-label">En pipeline</div><div class="kpi-value">${d.filter(v=>['Contactado','Demo','Onboarding'].includes(v.estado)).length}</div></div><div class="kpi"><div class="kpi-label">Total venues</div><div class="kpi-value">${d.length}</div></div><div class="kpi"><div class="kpi-label">GMV activos</div><div class="kpi-value" style="font-size:18px">${gmv?gmv.toLocaleString('es-ES')+'€':'—'}</div></div>`;}
-async function saveDPVenue(){setSaving('dv-save',true);const id=document.getElementById('dv-id').value;const obj={nombre:document.getElementById('dv-nombre').value,ciudad:document.getElementById('dv-ciudad').value,tipo:document.getElementById('dv-tipo').value,contacto:document.getElementById('dv-contacto').value,tel:document.getElementById('dv-tel').value,email:document.getElementById('dv-email').value,gmv:document.getElementById('dv-gmv').value||null,estado:document.getElementById('dv-estado').value,notas:document.getElementById('dv-notas').value};try{if(id){await sbUpdate(TABLES.dp,id,obj);}else{await sbInsert(TABLES.dp,obj);await logActivity(`DayPass: ${obj.nombre}`,'DayPass');}await reload('dp');closeModal('dp-venue-modal');renderDP();showToast('Guardado');if(!id)offerQuickTask(`Seguimiento DayPass: ${obj.nombre}`,'DayPass');}catch{showToast('Error',true);}setSaving('dv-save',false);}
-function openNewDP(){
-  document.getElementById('dv-id').value='';
-  ['nombre','ciudad','contacto','tel','email','gmv','notas'].forEach(f=>{const el=document.getElementById('dv-'+f);if(el)el.value='';});
-  document.getElementById('dv-tipo').value='';
-  document.getElementById('dv-estado').value='Contactado';
-  document.getElementById('dp-modal-title').textContent='Nuevo venue';
-  openModal('dp-venue-modal');
-}
-function editDPVenue(id){const v=cache.dp.find(x=>x.id===id);if(!v)return;document.getElementById('dv-id').value=v.id;['nombre','ciudad','tipo','contacto','tel','email','gmv','estado','notas'].forEach(f=>{const el=document.getElementById('dv-'+f);if(el)el.value=v[f]||'';});document.getElementById('dp-modal-title').textContent='Editar venue';openModal('dp-venue-modal');}
-async function deleteDPVenue(id){if(!confirm('¿Eliminar?'))return;try{await sbDelete(TABLES.dp,id);await reload('dp');renderDP();showToast('Eliminado');}catch{showToast('Error',true);}}
-
 async function renderSeg(){
   try{cache.tasks=await sbFetch(TABLES.tasks,{order:'created_at.asc'});cache.activity=await sbFetch(TABLES.activity,{limit:50});}catch{}
-  const p=cache.props,i=cache.invs,v=cache.vico,d=cache.dp,t=cache.tasks;
+  const p=cache.props,i=cache.invs,v=cache.vico,t=cache.tasks;
   document.getElementById('seg-kpis').innerHTML=`
     <div class="kpi"><div class="kpi-label">BiHouse · propiedades</div><div class="kpi-value">${p.length}</div></div>
     <div class="kpi"><div class="kpi-label">BiHouse · inversores</div><div class="kpi-value">${i.length}</div></div>
     <div class="kpi"><div class="kpi-label">VICO · deals activos</div><div class="kpi-value">${v.filter(x=>x.estado!=='Descartado').length}</div></div>
-    <div class="kpi"><div class="kpi-label">DayPass · venues activos</div><div class="kpi-value">${d.filter(x=>x.estado==='Activo').length}</div></div>
     <div class="kpi"><div class="kpi-label">Tareas pendientes</div><div class="kpi-value">${t.filter(x=>!x.done).length}</div></div>`;
   const acts=cache.activity;
   document.getElementById('seg-activity').innerHTML=acts.length?acts.slice(0,15).map(a=>{
     const proj=a.project||'';
-    const dotClass=proj==='BiHouse'?'acc-dot-bh':proj==='VICO'?'acc-dot-vico':proj==='DayPass'?'acc-dot-dp':'acc-dot-gen';
+    const dotClass=proj==='BiHouse'?'acc-dot-bh':proj==='VICO'?'acc-dot-vico':'acc-dot-gen';
     const ts=new Date(a.created_at).toLocaleDateString('es-ES',{day:'2-digit',month:'short'})+' '+new Date(a.created_at).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
     return`<div class="activity-item"><div class="acc-dot ${dotClass}"></div><div><div style="font-size:13px">${a.texto}</div><div style="font-size:11px;opacity:.5">${proj} · ${ts}</div></div></div>`;
   }).join(''):`<div class="empty-state">Sin actividad.</div>`;
